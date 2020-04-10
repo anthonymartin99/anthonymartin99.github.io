@@ -1,2 +1,4 @@
 h1{color: #0000cc;}
-#paragraph{font-size=30pt;}
+h1{color:#0000cc;font-size=30pt;font-family: serif;}
+h3{color:aqua;font-size=20pt;}
+main p{color:red;font-family: sans-serif}

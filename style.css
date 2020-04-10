@@ -1,0 +1,11 @@
+h1{color: #0000cc;}
+h1{color:#0000cc;font-size=30pt;font-family: serif;background-color: orange;border: 5px solid blue;padding: 10px; margin: 20px;}
+h3{color:aqua;font-size=20pt;}
+main p{color:red;font-family: sans-serif}
+li1{color:blueviolet}
+li2{color:darkgoldenrod}
+#img1{
+    float:right
+}
+body{background-color: purple;}
+footer{border-top:5px solid blue;}

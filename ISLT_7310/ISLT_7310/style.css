@@ -11,10 +11,22 @@ li {color:blueviolet}
     float:right; width: 20%;
 }
 body{background-color: purple;margin: 15px;}
-footer{border-top:5px solid blue; padding-top: 5px}
-footer a {color:darkblue;}
-footer a:link {color:darkblue}
-footer a:visited {color:purple;}
+footer{border-top:1px solid blue; padding-top: 1px; color:white;}
+footer a {color:white;}
+footer a:link {color:white;}
+footer a:visited {color:red;}
+footer{
+    background-image: url(milky-way-2695569_960_720.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    width= 100%;
+}
+footer img{
+    color:white;
+}
+iframe {
+    align-items: center;
+}
 #li3{color:aquamarine;}
 #reflection::first-letter {color:blue; font-family: sans-serif; font-style: italic;}
 #reflection {text-indent: 2em;}

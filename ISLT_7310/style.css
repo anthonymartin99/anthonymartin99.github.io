@@ -125,3 +125,52 @@ iframe {
         transform: scale(100)
     }
 }
+table{
+    400px;
+}
+th{
+    text-align: center;
+}
+tr{
+    text-align: center;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tr:nth-child(odd){
+    background-color: white;
+}
+tr:nth-last-child(odd) {
+    background-color: beige;
+}
+@media only screen and (max-width:479px){
+    th, td {
+        display: block;
+    }
+    thead{
+        display: none;
+    }
+    tr td:first child{
+        font-weight:bold;
+        font-size: 110%;
+        background-color: beige;
+    }
+    tbody td{
+        border-bottom-style: none;
+    }
+    tfoot{
+        background-color: white;
+        border:none;
+        border-top: solid black;
+    }
+    tfoot th, tfoot td:nth-of-type(1){
+        display:none;
+    }
+}
+form{
+    width:100%;
+}
+#message{
+    height:100px;
+}

@@ -1,22 +1,23 @@
 nav{top: 0px;
-    color:aqua;}
+    color:aqua;
+}
 #nav_menu ul {
     list-style-type: none;
   margin: 0;
     padding:0;
    color:aqua;
+    align-content: center;
     
 }
 #nav_menu ul li {
-    position:relative;
      text-align: center;
-    float:left;  
+    float:right;
 }
 
 nav a{
     text-decoration: red;
     display: inline-block;
-    border: 3px dotted #606060;
+    border: 3px solid #636360;
     padding: 20px 0 20px 0;
     width: 150px;
     margin: 5px;
@@ -43,7 +44,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color:#fff;  
+    color:#000099;  
 }
 
 

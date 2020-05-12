@@ -1,0 +1,155 @@
+@font-face {
+    font-family:notosans;
+    src:url("notosansjp-bold.otf");
+}
+h1{color:#000099;font-size:30pt;font-family: serif;background-color:#ff8c00;border: 5px solid #000099;padding: 10px; margin: 20px; text-align: center;}
+h3{color:#636360;font-size:20pt;text-align: center;}
+main p{color:#ff8c00;font-family:'Jost', sans-serif;}
+li {color:#000099}
+#li2{color:blueviolet}
+#img1{
+    float:right; 
+    width:180px;
+    height:137px;
+}
+body{background-color:beige;margin: 15px;}
+footer{border-top:4px solid #000099; padding-top: 1px; color:black;}
+footer a {color:black;}
+footer a:link {color:blue;}
+footer a:visited {color:red;}
+footer{
+    background-image: url(milky-way-2695569_960_720.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+footer img{
+    color:white;
+}
+iframe {
+    align-items: center;
+}
+#li3{color:aquamarine;}
+#reflection::first-letter {color:blue; font-family: sans-serif; font-style: italic;}
+#reflection {text-indent: 2em;}
+@media screen and (max-width:488px) {
+    body{
+        font-family:sans-serif;
+        margin: 15px 15px 15px 15px;
+        padding:0;
+        width: 100%;
+    }
+    #img1{
+        max-width:50%;
+    }
+    ul {
+        width: 90%;
+    }
+    a{
+        width:100%;
+    }
+}
+@media print {
+   /*HIDDEN ELEMENTS*/
+    nav{
+        display:none;
+    }
+    footer a{
+        display:none;
+    }
+    
+  
+     /* GLOBAL ELEMENTS */
+    body {
+        font-family: sans-serif;
+        font-size: 16pt;
+        line-height: 24pt;
+        background: none;
+    }
+    /*LAYOUT RESET*/
+    .final-result,
+    .info,
+    section,
+    footer
+    {
+        background:none;
+        width: 100%;
+        border:none;
+        padding:0;
+        margin:0;
+        text-align: center;
+    }
+    h1 {
+        font-size:30pt;
+        margin: 0 0 20pt;
+        text-align: center;
+        width:97%;
+        transform: rotate(0);
+    }
+    img{
+        height: 100px;
+        width:300px;
+    }
+    main p{
+        font-family: 'Jost', sans-serif;
+        font-size: 15pt;
+        
+    }
+    ul{
+        width:90%;
+        font-size:15pt;
+        font-family:sans-serif;
+    }
+    blockquote {
+        font-family: sans-serif;
+        font-size:10pt;
+        
+    }
+    
+}
+
+th{
+    text-align: center;
+}
+tr{
+    text-align: center;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tr:nth-child(odd){
+    background-color: 	#00FFFF;
+}
+tr:nth-last-child(odd) {
+    background-color: #ff8c00;
+}
+@media only screen and (max-width:479px){
+    th, td {
+        display: block;
+    }
+    thead{
+        display: none;
+    }
+    tr td:nth-child(1){
+        font-weight:bold;
+        font-size: 110%;
+        background-color: beige;
+    }
+    tbody td{
+        border-bottom-style: none;
+    }
+    tfoot{
+        background-color: white;
+        border:none;
+        border-top: solid black;
+    }
+    tfoot th, tfoot td:nth-of-type(1){
+        display:none;
+    }
+}
+form{
+    width:100%;
+}
+#message{
+    height:100px;
+}
